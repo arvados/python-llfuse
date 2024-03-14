@@ -40,8 +40,8 @@ The Python-LLFUSE source code is available on GitHub_.
 .. __: https://llfuse.readthedocs.io/
 .. _FUSE: http://github.com/libfuse/libfuse
 .. _FUSE mailing list: https://lists.sourceforge.net/lists/listinfo/fuse-devel
-.. _issue tracker: https://github.com/python-llfuse/python-llfuse/issues
+.. _issue tracker: https://github.com/arvados/python-llfuse/issues
 .. _mailing list archive: http://dir.gmane.org/gmane.comp.file-systems.fuse.devel
 .. _Gmane: http://www.gmane.org/
-.. _PyPi: https://pypi.python.org/pypi/llfuse/
-.. _GitHub: https://github.com/python-llfuse/python-llfuse
+.. _PyPi: https://pypi.python.org/pypi/arvados-llfuse/
+.. _GitHub: https://github.com/arvados/python-llfuse
