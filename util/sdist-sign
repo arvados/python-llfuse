@@ -15,6 +15,6 @@ fi
 
 python setup.py sdist
 
-D=dist/llfuse-$R.tar.gz
+D=dist/arvados-llfuse-$R.tar.gz
 
-$GPG --detach-sign --local-user "Thomas Waldmann" --armor --output $D.asc $D
+$GPG --detach-sign --local-user "Peter Amstutz" --armor --output $D.asc $D

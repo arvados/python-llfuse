@@ -13,6 +13,6 @@ else
     export TWINE_REPOSITORY_URL=
 fi
 
-D=dist/llfuse-$R.tar.gz
+D=dist/arvados-llfuse-$R.tar.gz
 
 twine upload $D
