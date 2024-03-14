@@ -10,7 +10,8 @@ The Python-LLFUSE Module
 .. start-intro
 
 This is a fork of Python-LLFUSE used by the Arvados project to support
-"arv-mount".
+"arv-mount".  **If you are trying to install "arv-mount" you want the
+"arvados_fuse" package.**
 
 Python-LLFUSE is a set of Python bindings for the low level FUSE_
 API. It requires at least FUSE 2.8.0 and supports both Python 2.x and
