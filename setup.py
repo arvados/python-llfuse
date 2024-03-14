@@ -47,7 +47,7 @@ if DEVELOPER_MODE:
     warnings.simplefilter('default')
 
 
-LLFUSE_VERSION = '1.5.0'
+LLFUSE_VERSION = '1.5.1'
 
 def main():
 
@@ -97,14 +97,14 @@ def main():
         c_sources.append('src/darwin_compat.c')
 
     setuptools.setup(
-          name='llfuse',
+          name='arvados-llfuse',
           zip_safe=True,
           version=LLFUSE_VERSION,
-          description='Python bindings for the low-level FUSE API',
+          description='Arvados fork of Python bindings for the low-level FUSE API',
           long_description=long_desc,
           author='Nikolaus Rath',
           author_email='Nikolaus@rath.org',
-          url='https://github.com/python-llfuse/python-llfuse/',
+          url='https://github.com/arvados/python-llfuse/',
           license='LGPL',
           classifiers=['Development Status :: 4 - Beta',
                        'Intended Audience :: Developers',

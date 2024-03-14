@@ -9,10 +9,8 @@ The Python-LLFUSE Module
 
 .. start-intro
 
-**Warning - no longer developed!**
-
-Python-LLFUSE is no longer actively developed and just receiving
-community-contributed maintenance to keep it alive for some time.
+This is a fork of Python-LLFUSE used by the Arvados project to support
+"arv-mount".
 
 Python-LLFUSE is a set of Python bindings for the low level FUSE_
 API. It requires at least FUSE 2.8.0 and supports both Python 2.x and
