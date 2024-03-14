@@ -4,7 +4,14 @@
 
 .. currentmodule:: llfuse
 
-**WARNING**: Python-LLFUSE is no longer actively developed.
+Release 1.5.1 (2024-03-14)
+==========================
+
+- Forked as arvados-llfuse
+- Now waits for the _notify_loop thread to complete before exiting
+  from main().  This prevents a segfault after llfuse.close() removes
+  the channel but the _notify_loop thread is still executing with
+  pending notify events and tries to send on the (removed) channel.
 
 Release 1.5.0 (2023-08-08)
 ==========================
